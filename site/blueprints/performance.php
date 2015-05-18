@@ -10,8 +10,8 @@ fields:
     type:  text
   time:
     label: Time
-    type: time
-    interval: 15
+    type: text
+    icon: clock-o
     width: 1/2
   date:
     label: Date
@@ -26,10 +26,13 @@ fields:
   price:
     label: Ticket Price
     type: text
+    icon: usd
     help: >
       Enter the ticket price, including the dollar sign, if necessary. Use "Free" if the event is open at no cost!
+    width: 1/2
   ticket_url:
-    label: Event Tickets URL
+    label: Event Ticketing URL
     type: url
+    width: 1/2
 
 

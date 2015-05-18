@@ -7,6 +7,9 @@ files: false
 
 fields:
   title:
+    label: Title
+    type: text
+  history:
     label: History
     type: textarea
   mission:
@@ -30,9 +33,6 @@ fields:
   photo:
     label: Photo
     type: image
-  title:
-    label: Title
-    type: text
 
 
 

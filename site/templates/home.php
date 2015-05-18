@@ -76,7 +76,7 @@
         <h2>Members</h2>
       </div>
     </article>
-    <article>
+    <article class="centered-layout">
       <? foreach ( $troupe as $member ) { ?>
         <div class="column quarter troupe-member">
           <h4><?= $member->name() ?></h4>
@@ -106,7 +106,7 @@
         <h2>Performances</h2>
       </div>
     </article>
-    <article>
+    <article class="centered-layout">
       <? foreach ( $performances as $performance ) { ?>
         <div class="column quarter">
           <h4><?= html::a($performance->url(), $performance->title()->html()) ?></h4>

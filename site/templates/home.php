@@ -1,13 +1,6 @@
 <? snippet('header') ?>
 
 <main>
-  <section class="hero">
-    <article class="centered-layout">
-      <div class="column half">
-        <h1><?= $site->title() ?></h1>
-      </div>
-    </article>
-  </section>
 
   <? # Upcoming / Most Recent Performance ?>
 

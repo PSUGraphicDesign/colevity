@@ -14,15 +14,15 @@
   }
 
   public static function performances_by_date () {
-    return page('performances')->children()->sortBy('date');
+    return page('performances')->children()->sortBy('opening_date');
   }
 
   public static function workshops_by_date () {
-    return page('workshops')->children();
+    return page('workshops')->children()->sortBy('date');
   }
 
   public static function classes_by_date () {
-    return page('classes')->children();
+    return page('classes')->children()->sortBy('date');
   }
 
   public static function all_programming_by_date () {
@@ -35,5 +35,11 @@
 
   public static function troupe_members () {
     return page('troupe')->children();
+  }
+
+  public static function social_media_icon_for ($network) {
+    $icon = $network['icon'];
+    $classes = join(['icon', $icon], ' ');
+    return html::a($network['url'], $network['network'], ['class' => $classes]);
   }
 }

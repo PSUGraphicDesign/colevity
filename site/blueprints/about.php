@@ -11,7 +11,8 @@ fields:
     type: text
   tagline:
     label: Tagline
-    type: text
+    type: textarea
+    buttons: false
   mission:
     label: Mission
     type: textarea

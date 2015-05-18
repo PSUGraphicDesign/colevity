@@ -2,6 +2,21 @@
 
 <main>
 
+  <? # About ?>
+
+  <section id="about" class="about">
+    <article>
+      <div class="column three-quarters">
+        <div class="tagline">
+          <?= $about->tagline()->kirbytext() ?>
+        </div>
+        <div class="mission">
+          <?= $about->mission()->kirbytext() ?>
+        </div>
+      </div>
+    </article>
+  </section>
+
   <? # Upcoming / Most Recent Performance ?>
 
   <section id="upcoming" class="upcoming">

@@ -9,27 +9,12 @@ fields:
   title:
     label: Title
     type: text
-  history:
-    label: History
-    type: textarea
-  mission:
-    label: Mission
-    type: textarea
   tagline:
     label: Tagline
     type: text
-  photo:
-    label: Photo
-    type: image
-  members:
-    label: Members
+  mission:
+    label: Mission
     type: textarea
-  name:
-    label: Name
-    type: text
-  bio:
-    label: Biography
+  history:
+    label: History
     type: textarea
-  photo:
-    label: Photo
-    type: image

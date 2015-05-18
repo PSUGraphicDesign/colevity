@@ -64,7 +64,20 @@
           <? foreach ( $workshops as $workshop ) { ?>
             <li>
               <h4><?= html::a($workshop->url(), $workshop->title()) ?></h4>
+              <div class="workshop-info">
+                <span class="workshop time">
+                  <?= $workshop->time() ?>
+                </span>
+                <span class="workshop day">
+                  <?= $workshop->day() ?>
+                </span>
+                <span class="workshop location">
+                  <?= $workshop->location()->json('address')?>
+                  </span>
+              </div>
+              <div class="workshop-description">
               <?= $workshop->description()->kirbytext() ?>
+              </div>
             </li>
           <? } ?>
         </ul>
@@ -75,6 +88,14 @@
           <? foreach ( $classes as $class ) { ?>
             <li>
               <h4><?= html::a($class->url(), $class->title()) ?></h4>
+                <div class="class-info">
+                <span class="class time">
+                  <?= $class->time() ?>
+                </span>
+                <span class="class day">
+                  <?= $class->day() ?>
+                </span>
+              </div>
               <?= $class->description()->kirbytext() ?>
             </li>
           <? } ?>

@@ -31,4 +31,10 @@ figure
 // Links
 
 a
-  color: inherit
+  color: $color-blue
+
+  &:hover
+    color: lighten($color-blue, 5%)
+
+  &:active
+    color: darken($color-blue, 5%)

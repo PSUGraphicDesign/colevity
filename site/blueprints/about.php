@@ -33,10 +33,3 @@ fields:
   photo:
     label: Photo
     type: image
-
-
-
-
-  
-
-

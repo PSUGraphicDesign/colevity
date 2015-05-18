@@ -56,14 +56,14 @@ fields:
       Adult: Adult
     width: 1/2
     columns: 1
-  price
+  price:
     label: Price
     type: text
     icon: money
     width: 1/2
     help: >
       Enter the workshop fee, including the dollar sign, if necessary. Use "Free" if it’s is open at no cost!
-  link
+  link:
     label: Workshop Registration URL
     type: url
     width: 1/2

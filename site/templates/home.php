@@ -6,12 +6,18 @@
 
   <section id="about" class="about">
     <article>
-      <div class="column three-quarters">
+      <div class="column centered-layout">
+        <!-- <div class="title">
+          <?= $about->title()->kirbytext() ?>
+        </div> -->
         <div class="tagline">
           <?= $about->tagline()->kirbytext() ?>
         </div>
         <div class="mission">
           <?= $about->mission()->kirbytext() ?>
+        </div>
+        <div class="history">
+          <?= $about->history()->kirbytext() ?>
         </div>
       </div>
     </article>

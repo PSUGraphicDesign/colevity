@@ -11,23 +11,23 @@ fields:
   location:
     label: Location
     type: place
-  number:
+  phone:
     label: Phone Number
-    type: number
+    type: tel
   hours_opening:
     label: Opening Time
-    type: time
-    interval: 15
+    type: text
+    icon: clock-o
     help:>
       Enter the start of the hours of operation.
     width: 1/2
   hours_closing:
     label: Closing Time
-    type: time
-    interval: 15
+    type: text
+    icon: clock-o
     help:>
       Enter the time that operations close.
     width: 1/2
   email:
-    label: Email
+    label: Primary Contact Email
     type: email

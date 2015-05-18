@@ -10,12 +10,13 @@ fields:
     type:  text
   time:
     label: Time
-    type: time
-    interval: 15
+    type: text
+    icon: clock-o
     width: 1/2
   day:
     label: Day
     type: checkboxes
+    width: 1/2
     options: 
       Sunday: Sunday
       Monday: Monday
@@ -42,18 +43,22 @@ fields:
       Adult: Adult
     width: 1/2
   instructor:
-    label: Instructor
+    label: Instructor Name
     type: text
+    icon: user
   description:
     label: Description
     type: textarea
   price:
     label: Price
     type: text
+    icon: usd
+    width: 1/2
     help: >
       Enter the class price, including the dollar sign, if necessary. Use "Free" if the class is open at no cost!
   class_url:
     label: Class Registration URL
     type: url
+    width: 1/2
 
 

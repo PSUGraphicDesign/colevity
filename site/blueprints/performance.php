@@ -13,10 +13,25 @@ fields:
     type: text
     icon: clock-o
     width: 1/2
-  date:
-    label: Date
+  opening_date:
+    label: Opening Date
     type: date
     width: 1/2
+  shows:
+    label: Show Schedule
+    type: structure
+    entry: >
+      {{date}} @ {{time}}
+    fields:
+      date:
+        label: Show Date
+        type: date
+        required: true
+      time:
+        label: Show Time
+        type: text
+        icon: clock-o
+        required: true
   location:
     label: Location
     type: place

@@ -26,7 +26,7 @@ fields:
   price:
     label: Ticket Price
     type: text
-    icon: usd
+    icon: money
     help: >
       Enter the ticket price, including the dollar sign, if necessary. Use "Free" if the event is open at no cost!
     width: 1/2

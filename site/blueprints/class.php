@@ -52,7 +52,7 @@ fields:
   price:
     label: Price
     type: text
-    icon: usd
+    icon: money
     width: 1/2
     help: >
       Enter the class price, including the dollar sign, if necessary. Use "Free" if the class is open at no cost!

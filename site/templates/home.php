@@ -155,9 +155,12 @@
 
   <section id="contact" class="contact">
     <article class="centered-layout">
-      <div class="column two-thirds">
-        <?= html::img('/assets/images/logo-light.png', ['alt' => $site->title()]) ?>
+      <div class="column half">
+        <?= html::img('/assets/images/CoLevity-Tealblock.jpg', ['alt' => $site->title()]) ?>
         <?= $contact->outreach()->kirbytext() ?>
+      </div>
+      <div class="newsletter-signup column half" >
+        <?= $contact->newsletter_cta()->kirbytext() ?>
       </div>
     </article>
   </section>

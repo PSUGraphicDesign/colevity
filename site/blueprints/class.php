@@ -16,7 +16,6 @@ fields:
   day:
     label: Day
     type: checkboxes
-    width: 1/2
     options: 
       Sunday: Sunday
       Monday: Monday
@@ -25,6 +24,8 @@ fields:
       Thursday: Thursday
       Friday: Friday
       Saturday: Saturday
+    width: 1/2
+    columns: 1
   
   level:
     label: Level
@@ -42,6 +43,7 @@ fields:
       Teen: Teen
       Adult: Adult
     width: 1/2
+    columns: 1
   instructor:
     label: Instructor Name
     type: text

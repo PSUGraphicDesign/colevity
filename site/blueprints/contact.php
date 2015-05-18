@@ -8,6 +8,17 @@ fields:
   title:
     label: Title
     type: text
+  outreach:
+    label: Outreach Information
+    type: textarea
+  newsletter_cta:
+    label: Newsletter Signup Message
+    type: textarea
+    buttons: false
+  address:
+    label: Address
+    type: textarea
+    buttons: false
   location:
     label: Location
     type: place
@@ -25,9 +36,34 @@ fields:
     label: Closing Time
     type: text
     icon: clock-o
-    help:>
+    help: >
       Enter the time that operations close.
     width: 1/2
   email:
     label: Primary Contact Email
     type: email
+
+  social_media:
+    label: Social Media
+    type: structure
+    entry: >
+      <a href="{{url}}">{{network}}</a>
+    fields:
+      network:
+        label: Network Name
+        type: text
+        required: true
+      url:
+        label: Link
+        type: url
+        required: true
+      icon:
+        label: Icon
+        type: select
+        required: true
+        default: icon-facebook
+        options:
+          icon-facebook: FaceBook
+          icon-twitter: Twitter
+          icon-instagram: Instagram
+          icon-whatever: Whatever

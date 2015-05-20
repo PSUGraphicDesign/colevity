@@ -80,9 +80,9 @@
                 <span class="workshop location">
                   <?= $workshop->location()->json('address')?>
                   </span>
-              </div>
               <div class="workshop-description">
               <?= $workshop->description()->kirbytext() ?>
+              </div>
               </div>
             </li>
           <? } ?>
@@ -95,6 +95,9 @@
             <li>
               <h4><?= html::a($class->url(), $class->title()) ?></h4>
                 <div class="class-info">
+                <div class="class level">
+                  <?= $class->level() ?>
+                </div>
                 <span class="class time">
                   <?= $class->time() ?>
                 </span>
@@ -105,8 +108,8 @@
                   <?= $class->instructor() ?>
                 <span>
                 </span>
-              </div>
               <?= $class->description()->kirbytext() ?>
+              </div>
             </li>
           <? } ?>
         </ul>

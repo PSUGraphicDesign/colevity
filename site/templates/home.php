@@ -174,7 +174,10 @@
   <? # Location ?>
 
   <section class="location">
-    <article>
+    <article class="map">
+      <div data-center-lat="<?= $contact->location()->json('lat') ?>" data-center-lng="<?= $contact->location()->json('lng') ?>" data-zoom="<?= c::get('place.defaults.zoom') ?>" id="map-canvas" class="map-canvas"></div>
+    </article>
+    <article class="contact-info">
       <div class="column third">
         <h5>Contact Us</h5>
         <div class="address">
@@ -191,11 +194,6 @@
             <?= CL::social_media_icon_for($link) ?>
           <? } ?>
         </div>
-      </div>
-    </article>
-    <article class="map">
-      <div class="column full">
-        Map
       </div>
     </article>
   </section>

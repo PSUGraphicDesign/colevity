@@ -101,6 +101,10 @@
                 <span class="class day">
                   <?= $class->day() ?>
                 </span>
+                <span class="class instructor">
+                  <?= $class->instructor() ?>
+                <span>
+                </span>
               </div>
               <?= $class->description()->kirbytext() ?>
             </li>

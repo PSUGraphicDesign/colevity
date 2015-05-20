@@ -7,11 +7,17 @@
   <section id="about" class="about">
     <article class="centered-layout">
       <div class="column three-quarters">
+        <!-- <div class="title">
+          <?= $about->title()->kirbytext() ?>
+        </div> -->
         <div class="tagline">
           <?= $about->tagline()->kirbytext() ?>
         </div>
         <div class="mission">
           <?= $about->mission()->kirbytext() ?>
+        </div>
+        <div class="history">
+          <?= $about->history()->kirbytext() ?>
         </div>
       </div>
     </article>
@@ -64,7 +70,20 @@
           <? foreach ( $workshops as $workshop ) { ?>
             <li>
               <h4><?= html::a($workshop->url(), $workshop->title()) ?></h4>
+              <div class="workshop-info">
+                <span class="workshop time">
+                  <?= $workshop->time() ?>
+                </span>
+                <span class="workshop day">
+                  <?= $workshop->day() ?>
+                </span>
+                <span class="workshop location">
+                  <?= $workshop->location()->json('address')?>
+                  </span>
+              </div>
+              <div class="workshop-description">
               <?= $workshop->description()->kirbytext() ?>
+              </div>
             </li>
           <? } ?>
         </ul>
@@ -75,6 +94,14 @@
           <? foreach ( $classes as $class ) { ?>
             <li>
               <h4><?= html::a($class->url(), $class->title()) ?></h4>
+                <div class="class-info">
+                <span class="class time">
+                  <?= $class->time() ?>
+                </span>
+                <span class="class day">
+                  <?= $class->day() ?>
+                </span>
+              </div>
               <?= $class->description()->kirbytext() ?>
             </li>
           <? } ?>
@@ -134,9 +161,12 @@
 
   <section id="contact" class="contact">
     <article class="centered-layout">
-      <div class="column two-thirds">
-        <?= html::img('/assets/images/logo-light.png', ['alt' => $site->title()]) ?>
+      <div class="column half">
+        <?= html::img('/assets/images/CoLevity-Tealblock.jpg', ['alt' => $site->title()]) ?>
         <?= $contact->outreach()->kirbytext() ?>
+      </div>
+      <div class="newsletter-signup column half" >
+        <?= $contact->newsletter_cta()->kirbytext() ?>
       </div>
     </article>
   </section>

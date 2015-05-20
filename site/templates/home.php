@@ -5,7 +5,7 @@
   <? # About ?>
 
   <section id="about" class="about">
-    <article>
+    <article class="centered-layout">
       <div class="column three-quarters">
         <div class="tagline">
           <?= $about->tagline()->kirbytext() ?>

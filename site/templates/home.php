@@ -5,8 +5,8 @@
   <? # About ?>
 
   <section id="about" class="about">
-    <article>
-      <div class="column centered-layout">
+    <article class="centered-layout">
+      <div class="column three-quarters">
         <!-- <div class="title">
           <?= $about->title()->kirbytext() ?>
         </div> -->

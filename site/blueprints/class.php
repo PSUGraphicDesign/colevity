@@ -29,12 +29,14 @@ fields:
   
   level:
     label: Level
-    type: select
+    type: checkboxes
     options:
+      All Levels: All Levels
       Beginner: Beginner 
       Intermediate: Intermediate
       Advanced: Advanced
     width: 1/2
+    columns: 1
   age:
     label: Age Range
     type: checkboxes

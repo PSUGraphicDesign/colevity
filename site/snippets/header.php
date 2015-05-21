@@ -8,7 +8,11 @@
   <title><?php echo $site->title()->html() ?> | <?php echo $page->title()->html() ?></title>
 
   <?= css('assets/css/colevity.css') ?>
+
+  
   <?= js('https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js') ?>
+  <?= js('assets/js/colevity.js') ?>
+  <?= js('assets/js/jquery.accordion.js') ?>
 
 </head>
 <body class="<?= CL::body_classes() ?>">

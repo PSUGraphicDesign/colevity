@@ -90,11 +90,10 @@
       </div>
       <div class="column half">
         <h3>Classes</h3>
-        <ul class="accordion">
+        <ul>
           <? foreach ( $classes as $class ) { ?>
             <li>
-                <h4><?= html::a($class->url(), $class->title()) ?></h4>
-              
+              <h4><?= html::a($class->url(), $class->title()) ?></h4>
                 <div class="class-info">
                 <div class="class level">
                   <?= $class->level() ?>
@@ -107,11 +106,9 @@
                 </span>
                 <span class="class instructor">
                   <?= $class->instructor() ?>
-                </span>
                 <span>
-              <?= $class->description()->kirbytext() ?>
                 </span>
-
+              <?= $class->description()->kirbytext() ?>
               </div>
             </li>
           <? } ?>

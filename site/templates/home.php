@@ -87,7 +87,7 @@
       </div>
       <div class="column half">
         <h3>Classes</h3>
-        <ul class="accordion">
+        <ul>
           <? foreach ( $classes as $class ) { ?>
             <li>
                 <h4><?= html::a($class->url(), $class->title()) ?></h4>

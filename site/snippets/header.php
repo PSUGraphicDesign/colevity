@@ -13,6 +13,9 @@
   <?= js('https://maps.googleapis.com/maps/api/js?v=3.exp') ?>
   <?= js('/assets/js/colevity.js') ?>
 
+  <script src="//use.typekit.net/dan3ywd.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+
 </head>
 <body class="<?= CL::body_classes() ?>">
   <header>

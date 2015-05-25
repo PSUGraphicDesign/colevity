@@ -20,16 +20,16 @@
     </article>
   </section>
 
-  <? # Upcoming / Most Recent Performance ?>
+  <? # Programs ?>
 
-  <section id="upcoming" class="upcoming">
+  <section id="programming" class="programming">
     <article>
       <div class="column full">
-        <h2>Upcoming</h2>
+        <h2>Programming</h2>
       </div>
     </article>
-    <article class="centered-layout">
-      <div class="column full">
+    <article>
+      <div class="column third">
         <h3><?= $next_performance->title() ?></h3>
         <div class="event-info">
           <span class="info time">
@@ -49,19 +49,7 @@
           <?= $next_performance->purchase_tickets_link() ?>
         </div>
       </div>
-    </article>
-  </section>
-
-  <? # Programs ?>
-
-  <section id="programming" class="programming">
-    <article>
-      <div class="column full">
-        <h2>Programs</h2>
-      </div>
-    </article>
-    <article>
-      <div class="column half">
+      <div class="column third">
         <h3>Workshops</h3>
         <ul>
           <? foreach ( $workshops as $workshop ) { ?>
@@ -85,7 +73,7 @@
           <? } ?>
         </ul>
       </div>
-      <div class="column half">
+      <div class="column third">
         <h3>Classes</h3>
         <ul>
           <? foreach ( $classes as $class ) { ?>

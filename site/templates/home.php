@@ -81,10 +81,10 @@
                 </span>
                 <span class="workshop location">
                   <?= $workshop->location()->json('address')?>
-                  </span>
+                </span>
               </div>
               <div class="workshop-description">
-              <?= $workshop->description()->kirbytext() ?>
+                <?= $workshop->description()->kirbytext() ?>
               </div>
             </li>
           <? } ?>

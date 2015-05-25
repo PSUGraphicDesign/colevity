@@ -5,11 +5,8 @@
   <? # About ?>
 
   <section id="about" class="about">
-    <article>
-      <div class="column centered-layout">
-        <!-- <div class="title">
-          <?= $about->title()->kirbytext() ?>
-        </div> -->
+    <article class="centered-layout">
+      <div class="column three-quarters">
         <div class="tagline">
           <?= $about->tagline()->kirbytext() ?>
         </div>
@@ -79,10 +76,10 @@
                 </span>
                 <span class="workshop location">
                   <?= $workshop->location()->json('address')?>
-                  </span>
-              <div class="workshop-description">
-              <?= $workshop->description()->kirbytext() ?>
+                </span>
               </div>
+              <div class="workshop-description">
+                <?= $workshop->description()->kirbytext() ?>
               </div>
             </li>
           <? } ?>
@@ -184,7 +181,10 @@
   <? # Location ?>
 
   <section class="location">
-    <article>
+    <article class="map">
+      <div data-center-lat="<?= $contact->location()->json('lat') ?>" data-center-lng="<?= $contact->location()->json('lng') ?>" data-zoom="<?= c::get('place.defaults.zoom') ?>" id="map-canvas" class="map-canvas"></div>
+    </article>
+    <article class="contact-info">
       <div class="column third">
         <h5>Contact Us</h5>
         <div class="address">
@@ -201,11 +201,6 @@
             <?= CL::social_media_icon_for($link) ?>
           <? } ?>
         </div>
-      </div>
-    </article>
-    <article class="map">
-      <div class="column full">
-        Map
       </div>
     </article>
   </section>

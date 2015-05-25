@@ -9,8 +9,8 @@
 
   <?= css('assets/css/colevity.css') ?>
 
-  
   <?= js('https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js') ?>
+  <?= js('https://maps.googleapis.com/maps/api/js?v=3.exp') ?>
   <?= js('assets/js/colevity.js') ?>
   <?= js('assets/js/jquery.accordion.js') ?>
 

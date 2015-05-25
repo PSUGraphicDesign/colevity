@@ -24,7 +24,7 @@
     <section class="logo">
       <article>
         <div class="column full">
-          <?= html::img('/assets/images/logo-background.png', ['alt' => $site->title()]) ?>
+          <img src="<?= $site->url() ?>/assets/images/logo-background.png" alt="<?= $site->title() ?>" />
         </div>
       </article>
     </section>

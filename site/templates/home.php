@@ -5,20 +5,22 @@
   <? # About ?>
 
   <section id="about" class="about">
-    <article class="centered-layout">
+    <article class="centered-layout tagline">
       <div class="column three-quarters">
         <!-- <div class="title">
           <?= $about->title()->kirbytext() ?>
         </div> -->
-        <div class="tagline">
-          <?= $about->tagline()->kirbytext() ?>
-        </div>
-        <div class="mission">
-          <?= $about->mission()->kirbytext() ?>
-        </div>
-        <div class="history">
-          <?= $about->history()->kirbytext() ?>
-        </div>
+        <?= $about->tagline()->kirbytext() ?>
+      </div>
+    </article>
+    <article class="centered-layout mission">
+      <div class="column three-quarters">
+        <?= $about->mission()->kirbytext() ?>
+      </div>
+    </article>
+    <article class="centered-layout history">
+      <div class="column half tablet-three-quarters mobile-full">
+        <?= $about->history()->kirbytext() ?>
       </div>
     </article>
   </section>

@@ -7,9 +7,6 @@
   <section id="about" class="about">
     <article class="centered-layout tagline">
       <div class="column three-quarters">
-        <!-- <div class="title">
-          <?= $about->title()->kirbytext() ?>
-        </div> -->
         <?= $about->tagline()->kirbytext() ?>
       </div>
     </article>

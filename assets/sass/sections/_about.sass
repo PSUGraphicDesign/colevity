@@ -1,11 +1,32 @@
 .about
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: 50% 40%
+  background-image: url(../images/colevity_about.jpg)
 
+  article
+    padding-top: 3rem
+    padding-bottom: 3rem
+    background-color: $color-blue-overlay
+    color: $color-white
+    
+  // All Three Sections:
+  .tagline,
+  .mission,
+  .history
+    text-align: center
+    +mobile
+      text-align: left
+
+  // Exceptions to the above
   .tagline
-    h1
-      font-size: 2rem
-      font-weight: 700
-      text-transform: uppercase
-      letter-spacing: 2px
+    h2
+      color: $color-white
+
+  .mission
 
   .history
+    & > *
+      max-width: 30em
+      margin: 0 auto
     

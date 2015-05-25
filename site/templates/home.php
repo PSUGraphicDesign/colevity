@@ -5,19 +5,17 @@
   <? # About ?>
 
   <section id="about" class="about">
-    <article class="centered-layout tagline">
+    <article class="centered-layout">
       <div class="column three-quarters">
-        <?= $about->tagline()->kirbytext() ?>
-      </div>
-    </article>
-    <article class="centered-layout mission">
-      <div class="column three-quarters">
-        <?= $about->mission()->kirbytext() ?>
-      </div>
-    </article>
-    <article class="centered-layout history">
-      <div class="column half tablet-three-quarters mobile-full">
-        <?= $about->history()->kirbytext() ?>
+        <div class="tagline">
+          <?= $about->tagline()->kirbytext() ?>
+        </div>
+        <div class="mission">
+          <?= $about->mission()->kirbytext() ?>
+        </div>
+        <div class="history">
+          <?= $about->history()->kirbytext() ?>
+        </div>
       </div>
     </article>
   </section>

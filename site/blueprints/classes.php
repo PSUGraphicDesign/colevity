@@ -2,17 +2,18 @@
 
 title: Classes
 pages:
+  hide: true
   template: class
   num: date
-files: false
+files: true
 fields:
-  info:
-    label: Information
-    type: info
-    help: >
-      This is a place to create indvidual classes that will be syndicated to the homepage. Please do not delete or rename this page!
-
-      You may create a new class by using the "Add" button, to the left.
   title:
     label: Title
     type:  text
+  description:
+    label: Classes Description
+    type: textarea
+    placeholder: A brief statement regarding classes at CoLevity.
+  url:
+    label: MindBody Link
+    type: url

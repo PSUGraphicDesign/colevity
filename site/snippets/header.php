@@ -14,6 +14,9 @@
   <?= js('assets/js/colevity.js') ?>
   <?= js('assets/js/jquery.accordion.js') ?>
 
+  <script src="//use.typekit.net/dan3ywd.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+
 </head>
 <body class="<?= CL::body_classes() ?>">
   <header>

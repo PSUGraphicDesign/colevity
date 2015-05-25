@@ -4,11 +4,13 @@ article.centered-layout
     text-align: initial
 
 .column
-  padding: 0 2rem
+  padding: 0 ($columns-gutter / 2)
   display: inline-block
   vertical-align: top
   font-size: $type-size-base
   position: relative
+  +mobile
+    padding: 0 1rem
 
   &.full
     width: 100%

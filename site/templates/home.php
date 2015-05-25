@@ -50,6 +50,12 @@
         </div>
       </div>
       <div class="column third">
+        <h3>Classes</h3>
+        <div class="class-description">
+          <?= $classes->description()->kirbytext() ?>
+        </div>
+      </div>
+      <div class="column third">
         <h3>Workshops</h3>
         <ul>
           <? foreach ( $workshops as $workshop ) { ?>
@@ -68,35 +74,6 @@
               </div>
               <div class="workshop-description">
                 <?= $workshop->description()->kirbytext() ?>
-              </div>
-            </li>
-          <? } ?>
-        </ul>
-      </div>
-      <div class="column third">
-        <h3>Classes</h3>
-        <ul>
-          <? foreach ( $classes as $class ) { ?>
-            <li>
-                <h4><?= html::a($class->url(), $class->title()) ?></h4>
-              
-                <div class="class-info">
-                <div class="class level">
-                  <?= $class->level() ?>
-                </div>
-                <span class="class time">
-                  <?= $class->time() ?>
-                </span>
-                <span class="class day">
-                  <?= $class->day() ?>
-                </span>
-                <span class="class instructor">
-                  <?= $class->instructor() ?>
-                </span>
-                <span>
-              <?= $class->description()->kirbytext() ?>
-                </span>
-
               </div>
             </li>
           <? } ?>

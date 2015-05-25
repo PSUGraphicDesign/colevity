@@ -1,5 +1,5 @@
 $(function () {
-  $('ul.accordion').accordion();
+  // $('ul.accordion').accordion();
   if ( $('.map').length ) {
     map_init('#map-canvas');
   }

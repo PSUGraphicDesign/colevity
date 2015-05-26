@@ -13,6 +13,8 @@
   <?= js('https://maps.googleapis.com/maps/api/js?v=3.exp') ?>
   <?= js('/assets/js/colevity.js') ?>
 
+  <link rel="stylesheet" href="../../assets/fonts/font-awesome-4.3.0/css/font-awesome.min.css">
+
 </head>
 <body class="<?= CL::body_classes() ?>">
   <header>

@@ -67,12 +67,15 @@ function map_init (map) {
 ]
   };
 
-  map = new google.maps.Map(document.getElementById('map-canvas'),
+  var map = new google.maps.Map(document.getElementById('map-canvas'),
       mapOptions);
+
+  var image = 'assets/images/MapMarker.png';
 
   var marker = new google.maps.Marker({
       position: mapOptions.center,
       map: map,
+      icon: image,
       title: 'Hello World!'
   });
 }

@@ -14,6 +14,6 @@ fields:
     label: Classes Description
     type: textarea
     placeholder: A brief statement regarding classes at CoLevity.
-  url:
+  class_url:
     label: MindBody Link
     type: url

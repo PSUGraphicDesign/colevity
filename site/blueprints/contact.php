@@ -63,7 +63,7 @@ fields:
         required: true
         default: icon-facebook
         options:
-          icon-facebook: FaceBook
-          icon-twitter: Twitter
-          icon-instagram: Instagram
-          icon-whatever: Whatever
+          facebook-official: FaceBook
+          twitter-square: Twitter
+          instagram: Instagram
+          tumblr-square: Tumblr

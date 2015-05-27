@@ -30,7 +30,8 @@
     </article>
     <article>
       <div class="column third">
-        <h3><?= $next_performance->title() ?></h3>
+        <h3>Upcoming Shows</h3>
+        <h4><?= $next_performance->title() ?></h4>
         <div class="event-info">
           <span class="info time">
             <?= $next_performance->time() ?>
@@ -53,6 +54,9 @@
         <h3>Classes</h3>
         <div class="class-description">
           <?= $classes->description()->kirbytext() ?>
+        </div>
+        <div class= "class-attend">
+          <a href=<?= $classes->class_url() ?>>Sign up</a>
         </div>
       </div>
       <div class="column third">

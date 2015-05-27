@@ -39,7 +39,7 @@
 
   public static function social_media_icon_for ($network) {
     $icon = $network['icon'];
-    $classes = join(['icon', $icon], ' ');
-    return html::a($network['url'], $network['network'], ['class' => $classes]);
+    $classes = join(['fa', 'fa-' . $icon], ' ');
+    return html::a($network['url'], html::tag('i', '', ['class' => $classes]));
   }
 }

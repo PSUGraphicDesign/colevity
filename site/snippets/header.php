@@ -25,7 +25,7 @@
     <section class="logo">
       <article>
         <div class="column full">
-          <img src="<?= $site->url() ?>/assets/images/logo-background.png" alt="<?= $site->title() ?>" />
+          <img src="<?= $site->url() ?>/assets/images/CoLevity-Tealblock.jpg" alt="<?= $site->title() ?>" />
         </div>
       </article>
     </section>

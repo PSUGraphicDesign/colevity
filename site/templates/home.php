@@ -167,8 +167,6 @@
       </div>
       <div class="newsletter-signup column half" >
         <?= $contact->newsletter_cta()->kirbytext() ?>
-        <iframe src='site/snippets/simple-contact-form-1-2/contactform.php' frameborder='0'
-          width='100%' height='200' ></iframe>
       </div>
     </article>
   </section>

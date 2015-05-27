@@ -164,6 +164,7 @@
           <? foreach ($contact->social_media()->yaml() as $link ) { ?>
             <?= CL::social_media_icon_for($link) ?>
           <? } ?>
+
         </div>
       </div>
     </article>

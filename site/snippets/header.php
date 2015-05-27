@@ -17,6 +17,8 @@
   <script src="//use.typekit.net/dan3ywd.js"></script>
   <script>try{Typekit.load();}catch(e){}</script>
 
+  <link rel="stylesheet" href="../../assets/fonts/font-awesome-4.3.0/css/font-awesome.min.css">
+
 </head>
 <body class="<?= CL::body_classes() ?>">
   <header>

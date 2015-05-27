@@ -8,6 +8,7 @@
   <title><?php echo $site->title()->html() ?> | <?php echo $page->title()->html() ?></title>
 
   <?= css('assets/css/colevity.css') ?>
+  <?= css('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css') ?>
 
   <?= js('https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js') ?>
   <?= js('https://maps.googleapis.com/maps/api/js?v=3.exp') ?>
@@ -17,7 +18,6 @@
   <script src="//use.typekit.net/dan3ywd.js"></script>
   <script>try{Typekit.load();}catch(e){}</script>
 
-  <link rel="stylesheet" href="../../assets/fonts/font-awesome-4.3.0/css/font-awesome.min.css">
 
 </head>
 <body class="<?= CL::body_classes() ?>">

@@ -1,7 +1,7 @@
 <section class="navigation">
   <article>
     <div class="column fifth">
-      <?= html::a('#upcoming', 'Schedule') ?>
+      <?= html::a('#programming', 'Programming') ?>
     </div>
     <div class="column fifth">
       <?= html::a('#members', 'Members') ?>

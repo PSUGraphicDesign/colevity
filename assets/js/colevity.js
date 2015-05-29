@@ -2,6 +2,28 @@ $(function () {
   if ( $('.map').length ) {
     map_init('#map-canvas');
   }
+
+  if ( $('#members').length ) {
+    var scrollOffset;
+
+    $('#members .troupe-member').on('click', function (e) {
+      $.ajax($(this).data('modal-url'), {
+        success: function (data) {
+          scrollOffset = $(window).scrollTop();
+          $(document.body).addClass('modal-open');
+          $('#modal').css({
+            'padding-top': scrollOffset + 100,
+            'height': $(document).height()
+          }).fadeIn(100);
+          $('#modal').html(data);
+        }
+      });
+    });
+    $('#modal').on('click', '.close', function (e) {
+      $(document.body).removeClass('modal-open');
+      $('#modal').fadeOut(100);
+    });
+  }
 });
 
 function map_init (map) {

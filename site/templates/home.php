@@ -105,6 +105,10 @@
     </article>
   </section>
 
+  <? # Member Modal Container ?>
+
+  <section id="modal" class="troupe-modal"></section>
+
   <? # Giving ?>
 
   <section id="support" class="giving">

@@ -97,7 +97,7 @@
     <article class="centered-layout">
       <? foreach ( $troupe as $member ) { ?>
         <div class="column quarter tablet-third mobile-half">
-          <div class="troupe-member" style="background-image: url('<?= $member->profile_image()->url() ?>')">
+          <div class="troupe-member" style="background-image: url('<?= $member->profile_image()->url() ?>')" data-modal-url="<?= $member->url() ?>">
             <h4><?= $member->name() ?></h4>
           </div>
         </div>

@@ -59,7 +59,7 @@
           <?= $classes->description()->kirbytext() ?>
         </div>
         <div class= "class-attend">
-          <a href=<?= $classes->class_url() ?>>Sign up</a>
+          <a href="<?= $classes->class_url() ?>" target="_blank">Sign up</a>
         </div>
       </div>
       <div class="column third">

@@ -112,11 +112,39 @@
   <? # Giving ?>
 
   <section id="support" class="giving">
+
     <article class="centered-layout">
-      <div class="column half">
-        <?= $giving->ask()->kirbytext() ?>
+
+      <div class="column">
+
+        <div class="giving-title">
+          <?= $giving->title()->kirbytext() ?>
+        </div>
+
+        <div class="giving-info">
+          <?= $giving->ask()->kirbytext() ?>
+        </div>
+
+        <div class="giving-options">
+
+          <div class="giving-donate">
+            <div><input type="submit" value="donate" name="donate" id="donate" class="giving-button"></div>
+          </div>
+
+          <div class="giving-volunteer">
+            <div><input type="submit" value="volunteer" name="volunteer" id="volunteer" class="giving-button"></div>
+          </div>
+
+          <div class="giving-audition">
+            <div><input type="submit" value="audition" name="audition" id="audition" class="giving-button"></div>
+          </div>
+
+        </div>
+
       </div>
+
     </article>
+
   </section>
 
   <? # Performances ?>

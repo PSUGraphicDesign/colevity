@@ -35,6 +35,7 @@ function map_init (map) {
     zoom: zoom,
     center: new google.maps.LatLng(lat, lng),
     disableDefaultUI: true,
+    scrollwheel: false,
     styles: [
   {
     "featureType": "landscape.man_made",

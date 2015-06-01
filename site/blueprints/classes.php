@@ -10,6 +10,9 @@ fields:
   title:
     label: Title
     type:  text
+  tagline:
+    label: Tagline
+    type: text
   description:
     label: Classes Description
     type: textarea

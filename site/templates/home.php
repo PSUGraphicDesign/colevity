@@ -52,6 +52,9 @@
       </div>
       <div class="column third">
         <h3>Classes</h3>
+        <div class="class-tagline">
+          <?= $classes->tagline()->kirbytext() ?>
+        </div>
         <div class="class-description">
           <?= $classes->description()->kirbytext() ?>
         </div>

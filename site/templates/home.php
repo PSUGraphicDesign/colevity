@@ -181,7 +181,7 @@
                 <input type="email" value="" name="EMAIL" class="mc_email" id="mce-EMAIL" class="mc-EMAIL" placeholder="email address" required>
         <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                   <div style="position: absolute; left: -5000px;"><input type="text" name="b_5fe793bd09693ad3665579e69_28ae5c49b0" tabindex="-1" value=""></div>
-                    <div class="clear"><input type="submit" value="Sign up" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                    <div class="clear"><input type="submit" value="Sign up" name="subscribe" id="mc-embedded-subscribe" class="conbutton"></div>
                 </div>
               </form>
             </div>

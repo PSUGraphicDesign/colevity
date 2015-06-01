@@ -9,7 +9,9 @@
           <?= $featured->date('M jS', 'opening_date') ?>
         <? } ?>
       </div>
+      <div class= "buy-tickets-button">
       <?= $featured->purchase_tickets_link('white') ?>
+    </div>
       <div class="learn">
         <h2>Learn more</h2>
       </div>

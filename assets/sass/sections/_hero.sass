@@ -25,16 +25,32 @@
       color: $color-beige
       font-style: italic
 
-    .button
+    .buy-tickets-button
       background: $color-beige
       color: $color-blue
-      position: absolute
-      left: 35%
+      text-transform: uppercase
+      text-align: center
+      font-weight: 700
+      width: 50%
+      height: 2rem
+      padding-top: .5rem
+      margin: auto
+      margin-top: 1rem
+      margin-bottom: 3rem
+      cursor: pointer
+      transition: .3s
+
+    .buy-tickets-button:hover
+      background: lighten($color-blue, 5%)
+
+
 
     .learn
-      position: absolute
-      top: 80%
-      left: 30%
+      h2
+        font-size: $type-size-base
+        font-weight: 500
+        margin-bottom: .5rem
+        letter-spacing: .2rem
 
     #triangle-down
       width: 0
@@ -42,9 +58,8 @@
       border-left: 50px solid transparent
       border-right: 50px solid transparent
       border-top: 25px solid $color-beige
-      position: absolute
-      left: 40%
-      top: 90%
+      margin: auto
+     
 
 
 

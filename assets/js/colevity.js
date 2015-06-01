@@ -1,4 +1,8 @@
 $(function () {
+
+  $("#sticky-nav").sticky({ topSpacing: 0 });
+
+
   if ( $('.map').length ) {
     map_init('#map-canvas');
   }

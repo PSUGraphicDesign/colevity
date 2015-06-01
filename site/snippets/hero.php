@@ -10,6 +10,11 @@
         <? } ?>
       </div>
       <?= $featured->purchase_tickets_link('white') ?>
+      <div class="learn">
+        <h2>Learn more</h2>
+      </div>
+      <div id="triangle-down"></div>
     </div>
+
   </article>
 </section>

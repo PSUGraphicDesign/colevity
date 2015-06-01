@@ -14,6 +14,9 @@
   <?= js('https://maps.googleapis.com/maps/api/js?v=3.exp') ?>
   <?= js('assets/js/colevity.js') ?>
 
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
   <script src="//use.typekit.net/dan3ywd.js"></script>
   <script>try{Typekit.load();}catch(e){}</script>
 

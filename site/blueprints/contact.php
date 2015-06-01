@@ -64,6 +64,12 @@ fields:
         default: icon-facebook
         options:
           facebook-official: FaceBook
-          twitter-square: Twitter
+          flickr: Flickr
           instagram: Instagram
+          pinterest-square: Pinterest
           tumblr-square: Tumblr
+          twitter-square: Twitter
+          vimeo-square: Vimeo
+          vine: Vine
+          wordpress: Wordpress
+          youtube: Youtube

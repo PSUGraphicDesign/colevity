@@ -3,23 +3,32 @@
   background-repeat: no-repeat
 
   .circle
-    background: $color-blue-overlay
     border-radius: 100%
-    height: 30rem
-    width: 30rem
-    padding-top: 20%
-    
-    h1
+    height: 100%
+    width: 100%
+    padding-top: 100%
+    overflow: hidden
+    position: relative
+    background-size: cover
+    background: $color-blue-overlay
+
+  .featured-info
+    position: absolute
+    top: 0
+    padding-top: 45%
+    width: 100%
+    color: $color-beige
+    text-align: center
+    line-height: 1em
+    font-style: italic
+
+    h1, h2
       color: $color-beige
       text-transform: uppercase
-      text-align: center
-      line-height: 1em
 
-    h2
-      color: $color-beige
-      text-align: center
-
-  
+    h1
+      font-size: $type-size-base*3
+      
     .featured-details
       text-align: center
       color: $color-beige

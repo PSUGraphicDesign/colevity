@@ -1,4 +1,3 @@
-
 <article id="<?= $page->uid() ?>" class="troupe-member-details">
   <? snippet('modal-controls') ?>
   <div class="column half tablet-two-thirds mobile-full">

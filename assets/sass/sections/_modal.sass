@@ -1,0 +1,32 @@
+section.modal
+  display: none
+  top: 0
+  height: 100%
+  width: 100%
+  background-color: $color-blue-overlay
+  position: absolute
+  z-index: $layer-modal
+  padding-top: 2rem
+  padding-bottom: 2rem
+
+  article
+    background: $color-white
+
+  +mobile
+    padding-top: 1rem
+    padding-bottom: 1rem
+
+  .modal-controls
+    background-color: $color-white
+    text-align: right
+    margin-bottom: 2rem
+    .close
+      display: inline-block
+      margin: -0.5rem
+      padding: 0.5rem
+      cursor: pointer
+      color: $color-blue
+      &:hover
+        color: $color-blue-overlay
+      &:active
+        color: $color-blue

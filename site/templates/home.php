@@ -110,7 +110,7 @@
 
   <? # Member Modal Container ?>
 
-  <section id="modal" class="troupe-modal"></section>
+  <section id="modal" class="modal"></section>
 
   <? # Giving ?>
 

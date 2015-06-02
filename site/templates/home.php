@@ -24,7 +24,7 @@
 
   <section id="programming" class="programming">
     <article>
-      <div class="column full">
+      <div class="column full section-label">
         <h2>Programming</h2>
       </div>
     </article>
@@ -93,7 +93,7 @@
 
   <section id="members" class="troupe-members">
     <article>
-      <div class="column full">
+      <div class="column full section-label">
         <h2>Members</h2>
       </div>
     </article>
@@ -154,7 +154,7 @@
 
   <section id="performances" class="performances">
     <article>
-      <div class="column full">
+      <div class="column full section-label">
         <h2>Performances</h2>
       </div>
     </article>

@@ -160,8 +160,10 @@
     </article>
     <article class="centered-layout">
       <? foreach ( $performances as $performance ) { ?>
-        <div class="column quarter">
-          <h4><?= html::a($performance->url(), $performance->title()->html()) ?></h4>
+        <div class="column quarter tablet-third mobile-half">
+          <div class="performance" data-modal-url="<?= $performance->url() ?>">
+            <h4><?= $performance->title() ?></h4>
+          </div>
         </div>
       <? } ?>
     </article>

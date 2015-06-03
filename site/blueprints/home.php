@@ -20,3 +20,5 @@ fields:
     type: select
     options: images
     width: 1/2
+    help: >
+      Upload a JPEG (no PNG, please!) 1400px or wider

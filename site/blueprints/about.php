@@ -13,6 +13,8 @@ fields:
     label: About Section Background
     type: select
     options: images
+    help: >
+      Upload a JPEG (no PNG, please!) 1400px or wider
   tagline:
     label: Tagline
     type: textarea

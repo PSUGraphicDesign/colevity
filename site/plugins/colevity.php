@@ -42,4 +42,11 @@
     $classes = join(['fa', 'fa-' . $icon], ' ');
     return html::a($network['url'], html::tag('i', '', ['class' => $classes]));
   }
+
+  public static function grayscale_image_of ($image, $width = 1400) {
+    return thumb($image, [
+      'grayscale' => true,
+      'width' => $width
+    ]);
+  }
 }

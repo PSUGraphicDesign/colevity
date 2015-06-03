@@ -10,9 +10,11 @@ fields:
     label: Title
     type: text
   hero_background:
-    label: About Section Background
+    label: Donate Section Background
     type: select
     options: images
+    help: >
+      Upload a JPEG (no PNG, please!) 1400px or wider
   ask:
     label: Donation Plea
     type: textarea

@@ -57,6 +57,8 @@ fields:
         label: Link
         type: url
         required: true
+        help:>
+          Must enter "HTTP://" before URL
       icon:
         label: Icon
         type: select

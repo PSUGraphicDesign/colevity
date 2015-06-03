@@ -3,12 +3,16 @@
 title: About
 pages:
   hide: true
-files: false
+files: images
 
 fields:
   title:
     label: Title
     type: text
+  hero_background:
+    label: About Section Background
+    type: select
+    options: images
   tagline:
     label: Tagline
     type: textarea

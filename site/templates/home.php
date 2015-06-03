@@ -4,7 +4,7 @@
 
   <? # About ?>
 
-  <section id="about" class="about">
+  <section id="about" class="about" style="background-image: url('<?= $about->hero_image() ?>');">
     <article class="centered-layout">
       <div class="column three-quarters">
         <div class="tagline">

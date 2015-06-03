@@ -13,19 +13,11 @@ fields:
     type: text
     icon: clock-o
     width: 1/2
-  day:
-    label: Day
-    type: checkboxes
-    options:
-      Sunday: Sunday
-      Monday: Monday
-      Tuesday: Tuesday
-      Wednesday: Wednesday
-      Thursday: Thursday
-      Friday: Friday
-      Saturday: Saturday
+  date:
+    label: Date
+    type: text
+    icon: calendar
     width: 1/2
-    columns: 1
   spaces:
     label: Spaces Available
     type: toggle
@@ -63,7 +55,7 @@ fields:
     width: 1/2
     help: >
       Enter the workshop fee, including the dollar sign, if necessary. Use "Free" if it’s is open at no cost!
-  link:
+  workshop_url:
     label: Workshop Registration URL
     type: url
     width: 1/2

@@ -23,12 +23,28 @@ $(function () {
       })(this),
       success: function (data) {
         scrollOffset = $(window).scrollTop();
+
         $(document.body).addClass('modal-open');
+
         $('#modal').css({
           'padding-top': scrollOffset + 100,
           'height': $(document).height()
         }).fadeIn(100);
+
         $('#modal').html(data);
+
+        $('.slideshow').flexslider({
+          animation: "slide",
+          selector: ".slides > .slide"
+        }).flexslider('pause');
+
+        $('#modal .next').on('click', function () {
+          $('.slideshow').flexslider('next');
+        });
+
+        $('#modal .prev').on('click', function () {
+          $('.slideshow').flexslider('prev');
+        });
       }
     });
   });

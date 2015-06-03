@@ -5,14 +5,18 @@
     <?= $page->description()->kirbytext() ?>
   </div>
   <? if ( $images->count() ) { ?>
-    <div class="column full">
-      <div class="slideshow">
+    <div class="column full slideshow">
+      <div class="slides">
         <? foreach ( $images as $image ) { ?>
           <div class="slide">
             <?= html::img(thumb($image, ['width' => 1500])->url()) ?>
           </div>
         <? } ?>
       </div>
+    </div>
+    <div class="column full slideshow-controls">
+      <div class="next"></div>
+      <div class="prev"></div>
     </div>
   <? } ?>
 </article>

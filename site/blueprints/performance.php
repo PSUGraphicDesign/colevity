@@ -3,7 +3,10 @@
 title: Performance
 pages:
   hide: true
-files: false
+files:
+  type:
+    - image
+  sortable: true
 fields:
   title:
     label: Title

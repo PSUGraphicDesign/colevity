@@ -11,6 +11,16 @@ $(function () {
 
   $('[data-modal-url]').on('click', function (e) {
     $.ajax($(this).data('modal-url'), {
+      beforeSend: (function (_this) {
+        return function (xhr) {
+          $(_this).addClass('fetching');
+        }
+      })(this),
+      complete: (function (_this) {
+        return function (xhr) {
+          $(_this).removeClass('fetching');
+        }
+      })(this),
       success: function (data) {
         scrollOffset = $(window).scrollTop();
         $(document.body).addClass('modal-open');

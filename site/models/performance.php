@@ -1,5 +1,5 @@
 <? class PerformancePage extends Page {
-  public function purchase_tickets_link ($color = 'green') {
+  public function purchase_tickets_link ($color = 'beige') {
     return html::a($this->ticket_url(), 'Buy Tickets', [
       'class' => join(['button', $color], ' '),
       'target' => '_blank'

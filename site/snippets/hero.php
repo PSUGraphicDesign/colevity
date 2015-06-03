@@ -12,7 +12,7 @@
           <? } ?>
         </div>
         <div class= "buy-tickets-button">
-          <?= $featured->purchase_tickets_link('white') ?>
+          <?= $featured->purchase_tickets_link() ?>
         </div>
         <div class="learn">
           <h2>Learn more</h2>

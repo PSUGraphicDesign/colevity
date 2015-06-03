@@ -34,7 +34,7 @@
   }
 
   public static function troupe_members () {
-    return page('troupe')->children();
+    return page('troupe')->children()->visible();
   }
 
   public static function social_media_icon_for ($network) {

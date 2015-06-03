@@ -14,6 +14,7 @@
   <?= js('https://maps.googleapis.com/maps/api/js?v=3.exp') ?>
   <?= js('assets/js/colevity.js') ?>
   <?= js('assets/js/jquery.sticky.js') ?>
+  <?= js('assets/js/jquery.flexslider-min.js') ?>
 
   <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
   <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">

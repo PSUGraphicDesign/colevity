@@ -134,7 +134,9 @@
         <div class="giving-options">
 
           <div class="giving-donate">
-            <div><input type="submit" value="donate" name="donate" id="donate" class="giving-button"></div>
+
+            <a href="<?= $giving->class_url() ?>" class="button beige" target="_blank">Donate</a>
+
           </div>
 
         </div>

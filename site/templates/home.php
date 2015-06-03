@@ -47,7 +47,7 @@
           <?= $next_performance->description()->kirbytext() ?>
         </div>
         <div class="event-attend">
-          <?= $next_performance->purchase_tickets_link('blue') ?>
+          <?= $next_performance->purchase_tickets_link('blue full-width') ?>
         </div>
       </div>
       <div class="column third">
@@ -59,7 +59,7 @@
           <?= $classes->description()->kirbytext() ?>
         </div>
         <div class="class-attend">
-          <a href="<?= $classes->class_url() ?>" class="button blue" target="_blank">Sign up</a>
+          <a href="<?= $classes->class_url() ?>" class="button blue full-width" target="_blank">Sign up</a>
         </div>
       </div>
       <div class="column third">
@@ -82,8 +82,8 @@
               <div class="workshop-description">
                 <?= $workshop->description()->kirbytext() ?>
               </div>
-              <div class= "workshop-attend button blue">
-              <a href="<?= $workshop->workshop_url() ?>" class=" button blue" target="_blank">Sign up</a>
+              <div class= "workshop-attend">
+              <a href="<?= $workshop->workshop_url() ?>" class=" button blue full-width" target="_blank">Sign up</a>
               </div>
             </li>
           <? } ?>

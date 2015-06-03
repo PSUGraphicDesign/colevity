@@ -73,7 +73,7 @@
                   <?= $workshop->time() ?>
                 </span>
                 <span class="workshop date">
-                  <?= $workshop->date() ?>
+                  <?= $workshop->date('M j, Y') ?>
                 </span>
                 <span class="workshop location">
                   <?= $workshop->location()->json('address')?>

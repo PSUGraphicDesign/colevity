@@ -15,7 +15,7 @@ fields:
     width: 1/2
   date:
     label: Date
-    type: text
+    type: date
     icon: calendar
     width: 1/2
   spaces:

@@ -6,10 +6,12 @@
 
   <section id="about" class="about" style="background-image: url('<?= $about->hero_image() ?>');">
     <article class="centered-layout">
-      <div class="column three-quarters">
+      <div class="column three-quarters mobile-full">
         <div class="tagline">
           <?= $about->tagline()->kirbytext() ?>
         </div>
+      </div>
+      <div class="column half tablet-two-thirds mobile-full">
         <div class="mission">
           <?= $about->mission()->kirbytext() ?>
         </div>

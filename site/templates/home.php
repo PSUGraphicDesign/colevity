@@ -117,7 +117,7 @@
 
   <? # Giving ?>
 
-  <section id="support" class="giving">
+  <section id="support" class="giving" style="background-image: url('<?= $giving->hero_image() ?>');">
 
     <article class="centered-layout">
 

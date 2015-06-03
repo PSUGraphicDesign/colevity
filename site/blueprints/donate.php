@@ -9,6 +9,10 @@ fields:
   title:
     label: Title
     type: text
+  hero_background:
+    label: About Section Background
+    type: select
+    options: images
   ask:
     label: Donation Plea
     type: textarea

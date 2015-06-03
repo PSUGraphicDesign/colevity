@@ -26,7 +26,9 @@
 </head>
 <body class="<?= CL::body_classes() ?>">
   <header>
-    <? if ( $page->isHomePage() ) snippet('hero', ['featured' => $featured_performance]) ?>
+    <? if ( $page->isHomePage() && $page->featured_performance()->length() ) { ?>
+      <? snippet('hero', ['featured' => $featured_performance]) ?>
+    <? } ?>
     <div id="sticky-nav">
       <section class="logo">
         <article>

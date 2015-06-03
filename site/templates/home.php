@@ -137,14 +137,6 @@
             <div><input type="submit" value="donate" name="donate" id="donate" class="giving-button"></div>
           </div>
 
-          <div class="giving-volunteer">
-            <div><input type="submit" value="volunteer" name="volunteer" id="volunteer" class="giving-button"></div>
-          </div>
-
-          <div class="giving-audition">
-            <div><input type="submit" value="audition" name="audition" id="audition" class="giving-button"></div>
-          </div>
-
         </div>
 
       </div>

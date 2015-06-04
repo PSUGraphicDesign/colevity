@@ -22,6 +22,8 @@ fields:
     width: 1/2
   shows:
     label: Show Schedule
+    help: >
+      Use this area to include a date range, if applicable. The first date must be at the top and the last date must be at the bottom. Drag and drop to rearrange the entries. 
     type: structure
     entry: >
       {{date}} @ {{time}}

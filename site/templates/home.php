@@ -178,19 +178,19 @@
       </div>
       <div class="newsletter-signup column half" >
         <?= $contact->newsletter_cta()->kirbytext() ?>
-          <div id="mc_embed_signup" class="mc_embed_signup">
-            <form action="//colevity.us11.list-manage.com/subscribe/post?u=5fe793bd09693ad3665579e69&amp;id=28ae5c49b0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate mc-embedded-subscribe-form" target="_blank" novalidate>
-              <div id="mc_embed_signup_scroll">
+      <div id="mc_embed_signup" class="mc_embed_signup">
+        <form action="//colevity.us11.list-manage.com/subscribe/post?u=54ae54ebe59c8fd27d9bf3e9f&amp;id=5d9579d8ad" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate mc-embedded-subscribe-form" target="_blank" novalidate>
+          <div id="mc_embed_signup_scroll">
   
-                <input type="email" value="" name="EMAIL" class="mc_email" id="mce-EMAIL" class="mc-EMAIL" placeholder="Email address" required>
-        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                  <div style="position: absolute; left: -5000px;"><input type="text" name="b_5fe793bd09693ad3665579e69_28ae5c49b0" tabindex="-1" value=""></div>
-                    <div class="clear"><input type="submit" value="Sign up" name="subscribe" id="mc-embedded-subscribe" class="button blue"></div>
-                </div>
-              </form>
-            </div>
+            <input type="email" value="" name="EMAIL" class="mc_email" id="mce-EMAIL" placeholder="email address" required>
+<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;"><input type="text" name="b_54ae54ebe59c8fd27d9bf3e9f_5d9579d8ad" tabindex="-1" value=""></div>
+            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+          </div>
+</form>
+</div>
 
-      <!--End mc_embed_signup-->
+<!--End mc_embed_signup-->
       </div>
     </article>
   </section>

@@ -18,36 +18,12 @@ fields:
     type: date
     icon: calendar
     width: 1/2
-  spaces:
-    label: Spaces Available
-    type: toggle
   location:
     label: Location
     type: place
-  instructor:
-    label: Instructor
-    type: text
-    icon: user
   description:
     label: Description
     type: textarea
-  level:
-    label: Ability Level
-    type: select
-    options:
-      Beginner: Beginner
-      Intermediate: Intermediate
-      Advanced: Advanced
-    width: 1/2
-  age:
-    label: Age Range
-    type: checkboxes
-    options: 
-      Youth: Youth
-      Teen: Teen
-      Adult: Adult
-    width: 1/2
-    columns: 1
   price:
     label: Price
     type: text

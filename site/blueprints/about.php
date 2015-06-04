@@ -19,9 +19,6 @@ fields:
     label: Tagline
     type: textarea
     buttons: false
-  mission:
-    label: Mission
-    type: textarea
   history:
     label: History
     type: textarea

@@ -15,6 +15,8 @@ fields:
     query:
       page: performances
     width: 1/2
+    help: >
+      If there are no upcoming performances, select the blank area at the top.
   hero_background:
     label: Hero Background
     type: select

@@ -13,10 +13,14 @@
           </div>
         <? } ?>
       </div>
-    </div>
-    <div class="column full slideshow-controls">
-      <div class="next"></div>
-      <div class="prev"></div>
+      <div class="slideshow-controls">
+        <div class="prev">
+          <i class="fa fa-chevron-left"></i>
+        </div>
+        <div class="next">
+          <i class="fa fa-chevron-right"></i>
+        </div>
+      </div>
     </div>
   <? } ?>
 </article>

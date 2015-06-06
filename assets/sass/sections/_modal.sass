@@ -42,26 +42,28 @@ section.modal
     top: 50%
     left: 0
     margin-top: -14px
+
+    .next,
+    .prev
+      margin: -0.5rem
+      padding: 0.5rem
+      cursor: pointer
+      color: $color-blue-overlay
+      font-size: 3rem
+      text-shadow: 0 2px 5px transparentize($color-black, 0.8)
+      transition: 0.25s linear transform
     
     .next
-      display: inline-block
-      margin: -0.5rem
-      padding: 0.5rem
-      cursor: pointer
-      color: $color-blue-overlay
-      font-size: 28px
       float: right
-      margin-right: 70px
+      margin-right: 3rem
+      &:hover
+        transform: translate(0.25rem, 0)
 
     .prev
-      display: inline-block
-      margin: -0.5rem
-      padding: 0.5rem
-      cursor: pointer
-      color: $color-blue-overlay
-      font-size: 28px 
       float: left  
-      margin-left: 70px 
+      margin-left: 3rem 
+      &:hover
+        transform: translate(-0.25rem, 0)
         
   // Flex Slider
   .flex-control-nav,

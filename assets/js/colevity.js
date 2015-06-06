@@ -35,7 +35,8 @@ $(function () {
 
         $('.slideshow').flexslider({
           animation: "slide",
-          selector: ".slides > .slide"
+          selector: ".slides > .slide",
+          smoothHeight: true
         }).flexslider('pause');
 
         $('#modal .next').on('click', function () {

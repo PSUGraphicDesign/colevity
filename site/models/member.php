@@ -3,13 +3,16 @@
     return $this->title();
   }
   
-  public function profile_image ($size = 400) {
+  public function profile_image_thumb ($size = 400) {
+    return CL::grayscale_image_of($this->profile_image(), $size);
+  }
+
+  public function profile_image () {
     if ( $this->hasImages() ) {
-      $image = $this->images()->first();
+      return $this->images()->first();
     } else {
-      $image = CL::default_profile_image();
+      return CL::default_profile_image();
     }
 
-    return CL::grayscale_image_of($image, $size);
   }
 }

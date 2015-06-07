@@ -116,10 +116,6 @@
     </article>
   </section>
 
-  <? # Member Modal Container ?>
-
-  <section id="modal" class="modal"></section>
-
   <? # Giving ?>
 
   <section id="support" class="giving" style="background-image: url('<?= $giving->hero_image() ?>');">
@@ -225,6 +221,10 @@
       </div>
     </article>
   </section>
+
+  <? # Modal Container ?>
+
+  <section id="modal" class="modal"></section>
 
 </main>
 

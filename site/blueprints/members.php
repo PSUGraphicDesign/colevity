@@ -2,7 +2,7 @@
 
 title: Troupe Members
 pages: member
-files: false
+files: image
 
 fields:
   info:
@@ -13,3 +13,11 @@ fields:
   title:
     label: Title
     type: text
+  default_profile_image:
+    label: Default Profile Image
+    type: select
+    options: query
+    query:
+      fetch: images
+      value: '{{filename}}'
+      text: '{{filename}}'

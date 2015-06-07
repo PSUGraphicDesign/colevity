@@ -16,7 +16,7 @@
         </div>
         <div class="learn">
           <h2>Learn more</h2>
-          <div id="triangle-down" class="arrow"></div>
+          <i class="fa fa-arrow-down"></i>
         </div>
       </div>
       </div>

@@ -1,4 +1,4 @@
-<section id="sticky" class="navigation">
+<section id="sticky" class="dark navigation">
   <article class="wide kebab">
     <div class="column third tablet-full logo">
       <img src="<?= $site->url() ?>/assets/images/CoLevity-Tealblock.jpg" alt="<?= $site->title() ?>" />

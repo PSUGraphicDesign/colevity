@@ -4,7 +4,7 @@
 
   <? # About ?>
 
-  <section id="about" class="about" style="background-image: url('<?= $about->hero_image() ?>');">
+  <section id="about" class="about dark" style="background-image: url('<?= $about->hero_image() ?>');">
     <article class="centered-layout">
       <div class="column three-quarters mobile-full">
         <div class="tagline">
@@ -118,11 +118,11 @@
 
   <? # Giving ?>
 
-  <section id="support" class="giving" style="background-image: url('<?= $giving->hero_image() ?>');">
+  <section id="support" class="dark giving" style="background-image: url('<?= $giving->hero_image() ?>');">
 
     <article class="centered-layout">
 
-      <div class="column">
+      <div class="column half mobile-full">
 
         <div class="giving-title">
           <?= $giving->title()->kirbytext() ?>

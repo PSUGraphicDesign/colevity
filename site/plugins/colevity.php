@@ -37,6 +37,8 @@
     return page('troupe')->children()->visible();
   }
 
+  # Images & Media
+
   public static function social_media_icon_for ($network) {
     $icon = $network['icon'];
     $classes = join(['fa', 'fa-' . $icon], ' ');
@@ -47,6 +49,15 @@
     return thumb($image, [
       'grayscale' => true,
       'width' => $width
+    ]);
+  }
+
+  public static function default_profile_image () {
+    $troupe = page('troupe');
+    $image = $troupe->image($troupe->default_profile_image());
+    return thumb($image, [
+      'width' => 500,
+      'grayscale' => true
     ]);
   }
 }

@@ -7,7 +7,7 @@
     if ( $this->hasImages() ) {
       return $this->images()->first();
     } else {
-      return false;
+      return CL::default_profile_image();
     }
   }
 }

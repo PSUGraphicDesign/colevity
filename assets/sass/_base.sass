@@ -10,11 +10,22 @@ body
   font-size: $type-size-base
   background-color: $color-beige
 
+section
+  border-top: 1px solid darken($color-beige, 10%)
+
+  &.dark,
+  & + .dark
+    border-top: none
+    color: $color-beige
+
+  &:first-of-type
+    border-top: none
+
 article
   font-size: 0
   margin: 0 auto
   max-width: 1000px
-  padding: 2rem 0
+  padding: 4rem 0
 
   & + article
     padding-top: 0

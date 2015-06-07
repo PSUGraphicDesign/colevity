@@ -30,7 +30,11 @@ section.navigation
       a
         display: block
         padding: 2rem 1rem
+        transition: 0.1s linear all
+
+        &:hover
+          background-color: transparentize($color-blue, 0.9)
+
         +mobile
           padding: 1rem 0
-
 

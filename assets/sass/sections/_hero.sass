@@ -4,30 +4,40 @@
 
   .circle
     border-radius: 100%
-    height: 100%
     width: 100%
     padding-top: 100%
     overflow: hidden
     position: relative
-    background-size: cover
     background: $color-blue-overlay
+
+    +mobile
+      border-radius: 0
+      padding: 0
+
 
   .featured-info
     position: absolute
     top: 0
-    padding: 35% 10% 
+    padding: 40% 10% 
     width: 100%
+    height: 100%
     color: $color-beige
     text-align: center
     line-height: 1em
     font-style: italic
+
+    +tablet
+      padding: 30% 5%
+
+    +mobile
+      position: static
+      padding: 10%
 
     h1, h2
       color: $color-beige
       text-transform: uppercase
 
     h1
-      font-size: $type-size-base*3
       margin-bottom: 0
       
     .featured-details
@@ -37,20 +47,27 @@
       margin-bottom: .5rem
 
     .learn
+      position: absolute
+      bottom: 10%
+      left: 0
+      width: 100%
+
+      +mobile
+        position: static
+
       h2
         font-size: $type-size-base
         font-weight: 500
         margin-bottom: .5rem
-        margin-top: 30%
         letter-spacing: .2rem
 
-    #triangle-down
-      width: 0
-      height: 0
-      border-left: 50px solid transparent
-      border-right: 50px solid transparent
-      border-top: 25px solid $color-beige
-      margin: auto
+      .arrow
+        width: 0
+        height: 0
+        border-left: 50px solid transparent
+        border-right: 50px solid transparent
+        border-top: 25px solid $color-beige
+        margin: auto
 
 
 

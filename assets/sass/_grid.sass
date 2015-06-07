@@ -1,7 +1,14 @@
-article.centered-layout
-  text-align: center
-  & > .column
-    text-align: initial
+article
+  &.centered-layout
+    text-align: center
+    & > .column
+      text-align: initial
+
+  &.wide
+    max-width: 0
+    padding: 0
+
+
 
 .column
   padding: 0 ($columns-gutter / 2)

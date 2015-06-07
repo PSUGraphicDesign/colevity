@@ -1,16 +1,36 @@
-#sticky-nav
-  background: $color-beige
-  width: 100%
-  text-transform: uppercase
-  text-align: center
+section.navigation
+  background: $color-blue
   font-weight: 500
   z-index: 100
 
-  img
-    position: absolute
-    left: 0
+  .logo
+    background-color: $color-blue
+    +tablet
+      text-align: center
+      img
+        margin: 0 auto
 
-.logo
-  article
-    margin-left: 0
-    padding: 1.5rem 0
+    +mobile
+      padding: 1rem
+
+  .links
+    background: $color-beige
+
+  ul
+    +list-reset
+    text-align: center
+    li
+      display: inline-block
+      +mobile
+        display: block
+        border-bottom: 1px solid $color-white
+        &:last-of-type
+          border-bottom: none
+
+      a
+        display: block
+        padding: 2rem 1rem
+        +mobile
+          padding: 1rem 0
+
+

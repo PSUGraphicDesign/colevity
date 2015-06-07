@@ -106,7 +106,10 @@
       <? foreach ( $troupe as $member ) { ?>
         <div class="column quarter tablet-third mobile-half">
           <div class="troupe-member" style="background-image: url('<?= $member->profile_image()->url() ?>')" data-modal-url="<?= $member->url() ?>">
-            <h4><?= $member->name() ?></h4>
+            <h4>
+              <small><?= $member->role()->html() ?></small>
+              <?= $member->name()->html() ?>
+            </h4>
           </div>
         </div>
       <? } ?>

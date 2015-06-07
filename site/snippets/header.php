@@ -29,14 +29,5 @@
     <? if ( $page->isHomePage() && $page->featured_performance()->length() ) { ?>
       <? snippet('hero', ['featured' => $featured_performance]) ?>
     <? } ?>
-    <div id="sticky-nav">
-      <section class="logo">
-        <article>
-          <div class="column full">
-            <img src="<?= $site->url() ?>/assets/images/CoLevity-Tealblock.jpg" alt="<?= $site->title() ?>" />
-          </div>
-        </article>
-      </section>
-      <? snippet('menu') ?>
-   </div>
+    <? snippet('navigation') ?>
   </header>

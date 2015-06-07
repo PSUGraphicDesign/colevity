@@ -1,6 +1,6 @@
 <section class="hero" style="background-image: url('<?= $page->hero_image() ?>');">
-  <article class="centered-layout">
-    <div class="column two-thirds">
+  <article class="centered-layout wide">
+    <div class="column half tablet-two-thirds mobile-full bare">
       <div class="circle">
         <div class="featured-info">
         <h1><?= $featured->title() ?></h1>

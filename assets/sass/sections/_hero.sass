@@ -1,6 +1,10 @@
 .hero
   background-size: cover
   background-repeat: no-repeat
+  padding: 3rem 0
+
+  +mobile
+    padding: 0
 
   .circle
     border-radius: 100%
@@ -45,6 +49,10 @@
       color: $color-beige
       font-style: italic
       margin-bottom: .5rem
+
+    .buy-tickets
+      margin-bottom: 1rem
+      margin-top: 1rem
 
     .learn
       position: absolute

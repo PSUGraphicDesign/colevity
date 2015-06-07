@@ -69,7 +69,7 @@
         <ul>
           <? foreach ( $workshops as $workshop ) { ?>
             <li>
-              <h4><?= html::a($workshop->url(), $workshop->title()) ?></h4>
+              <h4><?= html::a($workshop->workshop_url(), $workshop->title()) ?></h4>
               <div class="workshop-info">
                 <span class="workshop time">
                   <?= $workshop->time() ?>

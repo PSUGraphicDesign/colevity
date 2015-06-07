@@ -1,6 +1,6 @@
 $(function () {
 
-  $("#sticky-nav").sticky({ topSpacing: 0 });
+  if ( window.innerWidth > 640 ) $("#sticky-nav").sticky({ topSpacing: 0 });
 
 
   if ( $('.map').length ) {

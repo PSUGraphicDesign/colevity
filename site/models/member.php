@@ -3,11 +3,13 @@
     return $this->title();
   }
   
-  public function profile_image () {
+  public function profile_image ($size = 400) {
     if ( $this->hasImages() ) {
-      return $this->images()->first();
+      $image = $this->images()->first();
     } else {
-      return CL::default_profile_image();
+      $image = CL::default_profile_image();
     }
+
+    return CL::grayscale_image_of($image, $size);
   }
 }

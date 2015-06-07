@@ -54,10 +54,6 @@
 
   public static function default_profile_image () {
     $troupe = page('troupe');
-    $image = $troupe->image($troupe->default_profile_image());
-    return thumb($image, [
-      'width' => 500,
-      'grayscale' => true
-    ]);
+    return $troupe->image($troupe->default_profile_image());
   }
 }

@@ -32,7 +32,7 @@
     </article>
     <article>
       <div class="column third">
-        <h3>Upcoming Shows</h3>
+        <h3>Next Show</h3>
         <h4><?= $next_performance->title() ?></h4>
         <div class="event-info">
           <span class="info time">

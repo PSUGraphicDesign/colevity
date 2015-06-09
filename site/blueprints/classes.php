@@ -17,6 +17,8 @@ fields:
     label: Classes Description
     type: textarea
     placeholder: A brief statement regarding classes at CoLevity.
+    help: >
+      Drag and drop the .pdf into the text box to add. Follow this format: (file: yourpdf.pdf text: *What you want it to say* popup:yes)
   class_url:
     label: MindBody Link
     type: url

@@ -41,7 +41,7 @@
           <span class="info date">
             <?= $next_performance->date('M j, Y', 'opening_date') ?>
           </span>
-          <span class="info time">
+          <span class="info location">
             <?= $next_performance->location()->json('address') ?>
           </span>
         </div>
@@ -184,7 +184,7 @@
             <input type="email" value="" name="EMAIL" class="mc_email" id="mce-EMAIL" placeholder="email address" required>
 <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
             <div style="position: absolute; left: -5000px;"><input type="text" name="b_54ae54ebe59c8fd27d9bf3e9f_5d9579d8ad" tabindex="-1" value=""></div>
-            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button blue"></div>
           </div>
 </form>
 </div>

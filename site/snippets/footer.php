@@ -7,7 +7,7 @@
         <div class="footer-segment column third"><p>Site design and developement: August miller, Sadie Burchett, Tyley Butler, Bill Phan, and Thomas Moore</p></div>
         <div class="footer-segment column third"><p>Copyright CoLevity 2015</p></div>
       </div>
-      <a href="colevity.com/panel"><p>Login</p></a>
+      <a href="<?= url('panel') ?>"><p>Login</p></a>
     </div>
 
   </footer>

@@ -132,7 +132,7 @@
           <?= $giving->ask()->kirbytext() ?>
         </div>
 
-        <div class="giving-options">
+        <!-- <div class="giving-options">
 
           <div class="giving-donate">
 
@@ -140,7 +140,7 @@
 
           </div>
 
-        </div>
+        </div> -->
 
       </div>
 

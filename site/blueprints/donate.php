@@ -19,7 +19,7 @@ fields:
     label: Donation Plea
     type: textarea
     required: true
-  donation_cta:
+  <!-- donation_cta:
     label: Donation Action
     type: text
     required: true
@@ -51,4 +51,4 @@ fields:
     label: Tax ID Number
     type: text
     icon: barcode
-    required: true
+    required: true -->
